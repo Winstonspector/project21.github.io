@@ -24,18 +24,22 @@
             font-size: 18px;
             color: #333;
         }
-        .donate-link {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 18px;
-            color: white;
-            background-color: #ff9800;
-            text-decoration: none;
-            border-radius: 5px;
+        .donate-container {
             margin-top: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
         }
-        .donate-link:hover {
-            background-color: #e68900;
+        .qr-img {
+            width: 300px;
+            border-radius: 10px;
+        }
+        .donate-text {
+            font-size: 16px;
+            margin-top: 10px;
+            color: #0073e6;
         }
     </style>
 </head>
@@ -44,10 +48,14 @@
     <h1>World Down Syndrome Awareness Day</h1>
     
     <img src="https://i.pinimg.com/736x/cb/67/2e/cb672e816c85d7933e718cf4b0ad6a58.jpg" alt="Down Syndrome Awareness">
-
+    
     <p>Let's raise awareness and promote inclusion for individuals with Down Syndrome. Everyone deserves love, support, and opportunities.</p>
 
-    <a class="donate-link" href="https://tinyurl.com/y6mxdny5" target="_blank">Please Donate</a>
+    <div class="donate-container">
+        <h2>Scan the QR Code to Donate</h2>
+        <img class="qr-img" src="https://raw.githubusercontent.com/Winstonspector/project21.github.io/refs/heads/main/sanjay%20qr%20.jpeg" alt="Donate via UPI QR Code">
+        <p class="donate-text">Scan the QR code above or use <b>skvlmpt@okhdfcbank</b> to donate.</p>
+    </div>
 
 </body>
 </html>
